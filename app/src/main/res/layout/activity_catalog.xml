@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity"
+    android:background="@color/Blackish"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/series"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:fontFamily="@string/condensed"
+        android:textColor="@color/DeepYellow"
+        android:background="@color/Blackish"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <GridView
+        android:layout_marginTop="15dp"
+        android:id="@+id/movies_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:paddingHorizontal="4dp"
+        android:background="@color/Blackish"
+        android:layout_gravity="center"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/movies"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:fontFamily="@string/condensed"
+        android:textColor="@color/DeepYellow"
+        android:background="@color/Blackish"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="textEnd" />
+
+
+    <GridView
+        android:layout_marginTop="15dp"
+        android:id="@+id/movies_catalog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:paddingHorizontal="4dp"
+        android:background="@color/Blackish"
+
+        />
+
+
+</LinearLayout>
